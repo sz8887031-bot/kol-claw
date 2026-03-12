@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.mypy_cache/
+
+# 日志文件
+logs/
+*.log
+cron.log
+cron.error.log
+
+# 敏感配置（永远不提交真实密钥）
+.env
+.env.local
+.env.feishu
+config/secrets.py
+
+# 用户数据（CSV 数据文件不提交，只提交 sample/ 下的演示数据）
+data/*.csv
+data/*.ics
+data/*.xlsx
+data/*.json
+data/*.bak
+# 但允许演示数据
+!data/sample/
+!data/sample/*.csv
+
+# 备份文件
+*.backup*
+*~
+
+# Excel 临时文件
+~$*.xlsx
+~$*.xls
+*.tmp
+
+# 系统文件
+Thumbs.db
+.DS_Store
