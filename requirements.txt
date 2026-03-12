@@ -3,3 +3,4 @@ openpyxl>=3.1.0
 numpy>=1.24.0
 requests>=2.31.0
 icalendar>=5.0.0
+mcp>=1.0.0
